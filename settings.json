@@ -2,5 +2,13 @@
     "terminal.integrated.shellArgs.linux": [
         "-l",
         "-i"
-    ]
+    ],
+    "ros.distro": "kinetic",
+    "python.linting.enabled": true,
+    "python.autoComplete.extraPaths": [
+        "/golfcart_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "python.linting.pylintArgs": [
+        "--init-hook"]
 }
